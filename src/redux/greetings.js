@@ -4,6 +4,7 @@ const GET_GREETING = 'GET_GREETING';
 
 const initialState = {
   greeting: {},
+  loading: true,
 };
 
 const greetingsReducer = (state = initialState, action) => {
@@ -12,6 +13,7 @@ const greetingsReducer = (state = initialState, action) => {
       return {
         ...state,
         greeting: action.payload,
+        loading: false,
       };
     default: return state;
   }

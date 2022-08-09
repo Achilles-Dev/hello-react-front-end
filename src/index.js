@@ -6,9 +6,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import store from './redux/configureStore';
-import { getGreeting } from './redux/greetings';
-
-store.dispatch(getGreeting());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,7 +1,10 @@
-const getGreetingFromApi = () => {
-  fetch(`http://localhost:3000/api/greeting`)
-    .then(res => res.json)
-    .catch(error => console.log(error))
-}
+import axios from 'axios';
 
-export default getGreetingFromApi;
+const API = {
+  getGreeting: async (success) => {
+    await axios.get('http://localhost:3000/api/greeting')
+      .then((res) => success(res));
+  },
+};
+
+export default API;

@@ -1,9 +1,9 @@
-import getGreetingFromApi from "./api";
+import API from './api';
 
 const GET_GREETING = 'GET_GREETING';
 
 const initialState = {
-  greeting: {}
+  greeting: {},
 };
 
 const greetingsReducer = (state = initialState, action) => {
@@ -11,14 +11,14 @@ const greetingsReducer = (state = initialState, action) => {
     case GET_GREETING:
       return {
         ...state,
-        greeting: action.payload
+        greeting: action.payload,
       };
     default: return state;
   }
 };
 
 export const getGreeting = () => (dispatch) => {
-  getGreetingFromApi((res) => {
+  API.getGreeting((res) => {
     dispatch({
       type: GET_GREETING,
       payload: res.data,

@@ -1,56 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello React Front-end
 
-> Description the project.
+> This connects to a Rails back-end to display a random message.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Javascript
+- React, Redux
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Javascript
+- React
+- Redux
 
 ### Setup
+- Clone the Repository
+`git clone https://github.com/Achilles-Dev/hello-react-front-end.git`
+
+- Go to the project directory
+`cd hello-react-front-end`
 
 ### Install
 
+### Install
+
+- Run ```npm install```
+
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+- Run ```npm start```
 
 ## Authors
 
-👤 **Author1**
+👤 👤 **Solomon Hagan**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Achilles-Dev](https://github.com/Achilles-Dev/)
+- Twitter: [@SoloAchilles](https://twitter.com/SoloAchilles/)
+- LinkedIn: [Solomon Hagan](https://www.linkedin.com/in/solomon-hagan/)
 
 ## 🤝 Contributing
 
